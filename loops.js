@@ -1,3 +1,5 @@
+
+
 // ==========================================
 // Opdracht 1. Maak een for loop die het volgende patroon in de terminal print:
 // Verwachte uitkomsten:
@@ -7,9 +9,22 @@
 // ****
 // *****
 
+/*
+
+ const start = "*";
+
+    for (let i = 1; i <= 5; i++){
+        console.log(start.repeat(i));
+    }
+*/
+
+
+
 // Tip: je kunt de .repeat() methode gebruiken om een karakter een n aantal keer te herhalen... Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
+// const mood = "Happy! ";
+// console.log(`I feel ${mood.repeat(3)}`);
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de laatste (vijfde) loop het woord "klaar!"
@@ -20,6 +35,25 @@
 // loop...
 // klaar!
 // ==========================================
+
+
+/*
+const loopinfo = "loop...";
+const loopfinish = "klaar!";
+let looprun = "";
+
+
+for (let i = 0; i < 5; i++) {
+        if (3 >= i) {
+    console.log(loopinfo);
+        } else {
+            console.log(loopfinish);
+        }
+}
+*/
+
+
+
 
 
 // ==========================================
@@ -36,6 +70,20 @@
 // 'INV-0008'
 
 // ==========================================
+
+
+
+/*const invoiceType        = "INV";
+
+
+
+for (let i = 0; i < 8; i++) {
+    invoiceNumber = i +1 ;
+    console.log(invoiceType + "-000" + invoiceNumber);
+    }*/
+
+
+
 
 // ==========================================
 // Opdracht 4. Schrijf een for-loop die van 9 tot en met 18 loopt en de uren logt.
@@ -56,6 +104,25 @@
 // 18:00
 // ==========================================
 
+/*
+let timeClock = 9;
+const lunch = "Lunchpauze!";
+const eindeDag = "Bijna klaar!";
+
+for (timeClock; timeClock <= 18; timeClock++){
+    if (timeClock === 12){
+        console.log(timeClock + ":00 " + lunch)
+    } else if (timeClock === 17){
+            console.log(timeClock + ":00 " + eindeDag)
+        } else {
+        console.log(timeClock + ":00") }
+}
+
+
+*/
+
+
+
 
 // ==========================================
 // Opdracht 5. Maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -72,6 +139,27 @@
 // >> 8
 // >> 9
 // ==========================================
+
+
+/*
+for (let i = 0; i <10; i++ ){
+    if (i > 5){
+        console.log(">> " + i)
+    } else if (i > 2 ){
+        console.log("> " + i)
+    } else {
+    console.log(i) }
+}
+
+
+for (let i = 0; i <10; i++ ){
+    if (i < 3){
+        console.log(i)
+    } else if (i < 6 ){
+        console.log("> " + i)
+    } else {
+        console.log(">> " + i) }
+}*/
 
 
 // ==========================================
@@ -111,6 +199,20 @@
 // FizzBuzz
 // etc.
 // ==========================================
+
+const iedereDrie = "Fizz";
+const iedereVijf = "Buzz"
+
+for (let i = 1; i <=100; i++ ){
+    if (i % 3 === 0 && i % 5 === 0){
+        console.log(iedereDrie+iedereVijf)
+    } else if (i % 3 === 0){
+        console.log(iedereDrie)
+    } else if (i % 5 === 0){
+        console.log(iedereVijf)
+    }else {
+        console.log(i) }
+}
 
 
 
