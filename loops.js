@@ -9,14 +9,12 @@
 // ****
 // *****
 
-/*
 
  const start = "*";
 
     for (let i = 1; i <= 5; i++){
         console.log(start.repeat(i));
     }
-*/
 
 
 
@@ -37,7 +35,6 @@
 // ==========================================
 
 
-/*
 const loopinfo = "loop...";
 const loopfinish = "klaar!";
 let looprun = "";
@@ -50,7 +47,6 @@ for (let i = 0; i < 5; i++) {
             console.log(loopfinish);
         }
 }
-*/
 
 
 
@@ -73,14 +69,14 @@ for (let i = 0; i < 5; i++) {
 
 
 
-/*const invoiceType        = "INV";
+const invoiceType        = "INV";
 
 
 
 for (let i = 0; i < 8; i++) {
     invoiceNumber = i +1 ;
     console.log(invoiceType + "-000" + invoiceNumber);
-    }*/
+    }
 
 
 
@@ -104,7 +100,6 @@ for (let i = 0; i < 8; i++) {
 // 18:00
 // ==========================================
 
-/*
 let timeClock = 9;
 const lunch = "Lunchpauze!";
 const eindeDag = "Bijna klaar!";
@@ -119,7 +114,6 @@ for (timeClock; timeClock <= 18; timeClock++){
 }
 
 
-*/
 
 
 
@@ -141,7 +135,6 @@ for (timeClock; timeClock <= 18; timeClock++){
 // ==========================================
 
 
-/*
 for (let i = 0; i <10; i++ ){
     if (i > 5){
         console.log(">> " + i)
@@ -159,7 +152,7 @@ for (let i = 0; i <10; i++ ){
         console.log("> " + i)
     } else {
         console.log(">> " + i) }
-}*/
+}
 
 
 // ==========================================
